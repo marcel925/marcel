@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Smart Code Solution MD – Expert software development consulting company specialized in JavaScript, React, React Native, and scalable backend systems." />
-  <title>Smart Code Solution MD</title>
+  <meta name="description" content="Marcel Moraru – Senior software engineer with 10+ years of expertise in JavaScript, React, React Native, and scalable full-stack systems." />
+  <title>Marcel Moraru</title>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --teal: #05A29B;
-      --teal-dark: #037a74;
-      --teal-glow: rgba(5, 162, 155, 0.3);
-      --dark: #1a1a2e;
+      --teal: #1B3A6B;
+      --teal-dark: #122B52;
+      --teal-glow: rgba(27, 58, 107, 0.3);
+      --dark: #0F1B2D;
+      --accent: #C9A84C;
       --light: #f9f9f9;
       --white: #ffffff;
       --text: #1f1f1f;
@@ -52,14 +53,14 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: rgba(5, 162, 155, 0.15);
+      background: rgba(27, 58, 107, 0.25);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
       transition: background 0.3s ease, box-shadow 0.3s ease;
     }
 
     nav.scrolled {
-      background: rgba(5, 162, 155, 0.95);
+      background: rgba(15, 27, 45, 0.95);
       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
     }
 
@@ -126,7 +127,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      background: linear-gradient(135deg, var(--teal), var(--teal-dark), #024e4a);
+      background: linear-gradient(135deg, var(--teal), var(--teal-dark), #0A1F3D);
     }
 
     #heroCanvas {
@@ -216,7 +217,7 @@
 
     .section-title {
       font-size: clamp(1.5rem, 3vw, 2.2rem);
-      color: var(--teal);
+      color: var(--accent);
       margin-bottom: 2.5rem;
       text-align: center;
       font-weight: 800;
@@ -262,7 +263,7 @@
 
     .service-card:hover {
       transform: translateY(-8px);
-      box-shadow: 0 20px 40px rgba(5, 162, 155, 0.15);
+      box-shadow: 0 20px 40px rgba(27, 58, 107, 0.15);
     }
 
     .service-card svg {
@@ -311,7 +312,7 @@
       left: 0;
       width: 100%;
       height: 1px;
-      background: linear-gradient(90deg, transparent, var(--teal), transparent);
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
     }
 
     .stats-section::before { top: 0; }
@@ -331,14 +332,14 @@
     .stat-card svg {
       width: 36px;
       height: 36px;
-      color: var(--teal);
+      color: var(--accent);
       margin-bottom: 0.75rem;
     }
 
     .stat-number {
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 800;
-      color: var(--teal);
+      color: var(--accent);
       line-height: 1.2;
     }
 
@@ -351,7 +352,7 @@
     /* ── Contact ── */
     .contact-section {
       text-align: center;
-      background: linear-gradient(180deg, var(--light) 0%, rgba(5, 162, 155, 0.05) 100%);
+      background: linear-gradient(180deg, var(--light) 0%, rgba(27, 58, 107, 0.05) 100%);
     }
 
     .contact-section p {
@@ -411,7 +412,7 @@
       left: 0;
       width: 100%;
       height: 1px;
-      background: linear-gradient(90deg, transparent, var(--teal), transparent);
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
     }
 
     /* ── Responsive ── */
@@ -424,7 +425,7 @@
         left: 0;
         width: 100%;
         flex-direction: column;
-        background: rgba(5, 162, 155, 0.95);
+        background: rgba(15, 27, 45, 0.95);
         backdrop-filter: blur(12px);
         padding: 0;
         gap: 0;
@@ -480,7 +481,7 @@
 
   <!-- Nav -->
   <nav>
-    <a href="#hero" class="logo">Smart Code Solution MD</a>
+    <a href="#hero" class="logo">Marcel Moraru</a>
     <button class="hamburger" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
@@ -496,7 +497,7 @@
   <section id="hero">
     <canvas id="heroCanvas"></canvas>
     <div class="hero-content">
-      <h1>Smart Code Solution MD</h1>
+      <h1>Marcel Moraru</h1>
       <p>10+ Years of Senior-Level Software Engineering Expertise</p>
       <a href="#contact" class="cta-btn">Let's Build Together</a>
     </div>
@@ -505,15 +506,15 @@
   <!-- About -->
   <div class="container">
     <section id="about" class="section">
-      <h2 class="section-title" data-animate="fade-up">About Us</h2>
+      <h2 class="section-title" data-animate="fade-up">About Me</h2>
       <div class="about-grid">
         <img src="https://lyricfluent-spaces.sfo3.cdn.digitaloceanspaces.com/other_images/lyricfluent_founder.jpg" alt="Founder Photo" class="about-photo" data-animate="scale-in">
-        <p class="about-text" data-animate="fade-right">We are a software consulting company founded by experienced developers with a proven track record of building high-scale consumer-facing applications. We specialize in JavaScript technologies across the full stack, delivering scalable, secure, and performant solutions.</p>
+        <p class="about-text" data-animate="fade-right">I'm a senior software engineer with over a decade of experience building high-scale consumer-facing applications. I specialize in JavaScript technologies across the full stack, delivering scalable, secure, and performant solutions for startups and established companies alike.</p>
       </div>
     </section>
 
     <section id="services" class="section">
-      <h2 class="section-title" data-animate="fade-up">Our Services</h2>
+      <h2 class="section-title" data-animate="fade-up">What I Do</h2>
       <div class="services-grid">
         <div class="service-card" data-animate="fade-up" data-delay="0">
           <div class="card-icon">
@@ -522,7 +523,7 @@
             </svg>
           </div>
           <h3>Mobile App Development</h3>
-          <p>Built with React Native & Expo. Our mobile apps have garnered over 1,000 five-star reviews, delighting users worldwide.</p>
+          <p>Built with React Native & Expo. My mobile apps have garnered over 1,000 five-star reviews, delighting users worldwide.</p>
         </div>
         <div class="service-card" data-animate="fade-up" data-delay="0.1">
           <div class="card-icon">
@@ -531,7 +532,7 @@
             </svg>
           </div>
           <h3>Website Development</h3>
-          <p>Using React & Next.js, we've built SEO-optimized websites that handle over 1 million visitors per month.</p>
+          <p>Using React & Next.js, I've built SEO-optimized websites that handle over 1 million visitors per month.</p>
         </div>
         <div class="service-card" data-animate="fade-up" data-delay="0.2">
           <div class="card-icon">
@@ -540,7 +541,7 @@
             </svg>
           </div>
           <h3>Full Stack Development</h3>
-          <p>End-to-end solutions with React, Node.js, and MongoDB. Our APIs handle over 2 million requests per month with blazing-fast performance.</p>
+          <p>End-to-end solutions with React, Node.js, and MongoDB. My APIs handle over 2 million requests per month with blazing-fast performance.</p>
         </div>
         <div class="service-card" data-animate="fade-up" data-delay="0.3">
           <div class="card-icon">
@@ -549,7 +550,7 @@
             </svg>
           </div>
           <h3>Consulting & Architecture</h3>
-          <p>We help startups and scale-ups build robust architectures, improve performance, and accelerate delivery timelines.</p>
+          <p>I help startups and scale-ups build robust architectures, improve performance, and accelerate delivery timelines.</p>
         </div>
       </div>
     </section>
@@ -591,13 +592,13 @@
       <h2 class="section-title" data-animate="fade-up">Let's Work Together</h2>
       <p data-animate="fade-up" data-delay="0.1">Ready to build something great? Let's talk about your project.</p>
       <div data-animate="fade-up" data-delay="0.2">
-        <a href="mailto:contact@smartcodesolutionmd.com" class="cta-btn-primary">Get In Touch</a>
+        <a href="mailto:contact@marcelmoraru.com" class="cta-btn-primary">Get In Touch</a>
       </div>
     </section>
   </div>
 
   <footer>
-    <p>&copy; 2025 Smart Code Solution MD. All rights reserved.</p>
+    <p>&copy; 2026 Marcel Moraru. All rights reserved.</p>
   </footer>
 
   <script>

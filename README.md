@@ -1,5 +1,5 @@
-# Smart Code Solution MD
+# Marcel Moraru
 
-Software consulting company specializing in JavaScript, React, React Native, and scalable backend systems.
+Software developer specialised in Next JS, React Native, and Node JS.
 
-Website: [smartcodesolutionmd.com](https://smartcodesolutionmd.com)
+Website: [marcelmoraru.com](https://marcelmoraru.com)
